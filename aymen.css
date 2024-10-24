@@ -519,3 +519,11 @@ border-radius: 50%;
 color: var(--text-color);
 font-size: 27px;
 }
+#viewCVButton {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

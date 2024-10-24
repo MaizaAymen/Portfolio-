@@ -40,3 +40,6 @@ const headeer=document.querySelector("header");
   window.addEventListener("scroll",function(){
      headeer.classList.toggle("sticky",this.window.scrollY >120);
   });
+  document.getElementById("viewCVButton").addEventListener("click", function() {
+    window.open('cv_bb.pdf', '_blank'); // Opens CV in a new tab
+});
